@@ -1,0 +1,464 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "calibri";
+}
+.nav{
+    background-color: black;
+}
+.navbar{
+    width: 85%;
+    margin:auto;
+    padding:15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    font-family: itim;
+
+}
+.logo{
+    width: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 35px;
+    color: red;
+    font-family: itim;
+    margin-left: 70px;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+    position: relative;
+    font-size: 20px;
+    
+}
+.navbar ul li a{
+    text-decoration: none;
+    color:white;
+    font-family: calibri;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.navbar ul li::after{
+    content: '';
+    height:3px;
+    width: 0%;
+    background:red;
+    position: absolute;
+    left: 0;
+    bottom:-4px;
+    transition: 0.5s;
+    cursor:pointer;
+}
+.navbar ul li:hover::after{
+    width:100%;
+}
+.icons .fa{
+    
+}
+.cta{
+    background: red;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    padding:10px 28px;
+    border-radius: 6px;
+    padding:10px;
+    margin-left: -18px;
+    cursor:pointer;
+    width: 133px;
+}
+.read-more{
+    background: black;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    padding:10px 28px;
+    border: 2px solid black;
+    padding:10px;
+    cursor:pointer;
+    width: 133px;
+    margin-left: -125px;
+    border-radius: 0;
+    margin-top: 11px;
+}
+    .read-more:hover{
+    box-shadow: 0 0 50px 0px rgba(0,0,0,0.2);
+    background: white;
+    color: black;
+    transition: 0.1s;
+    border:2px solid red;
+    font-size: large;
+    font-weight: bold;
+}
+.cta:hover {
+    background: white;
+    color: red;
+    transition: 0.1s;
+    border:2px solid white;
+    font-size: large;
+    font-weight: bold;
+    width: 133px;
+}
+.cta:hover span{
+    width: 100%;
+    border: none;
+
+}
+.container{
+    margin-left: 170px;
+    margin-top: 115px;
+    display: flex;
+}
+.container h1{
+    font-size: 78px;
+    font-weight: bold;
+    line-height: 75px;
+    color:white;
+    text-align: left;
+    font-family: abril fatface;
+    color: white;
+}
+.container p{
+    font-size: 16px;
+    font-weight: lighter;
+    text-align: left;
+    font-family: calibri;
+    color: white;
+}
+.container img{
+    width:355px;
+    margin-top:-85px;
+    margin-left:30px;
+}
+.btn{
+    padding:10px 28px;
+    border:2px solid red;
+    background: transparent;
+    border-radius: 6px;
+    cursor:pointer;
+    color: black;
+    font-weight: bold;
+    font-size: large;
+    padding:10px;
+    width: 133px;
+    cursor:pointer;
+}
+h2{
+    text-align: center;
+    cursor:pointer;
+}
+.buttons{
+    padding:20px;
+}
+.testimonials{
+    background-color: white;
+}
+.testimonials{
+    width:80%;
+    margin: auto;
+    text-align: center;
+    padding-top:100px;
+    cursor:pointer;
+}
+
+.testimonials h1{
+    font-size: 34px;
+    font-weight: 600;
+    font-family: rowdies;
+    cursor:pointer;
+}
+.testimonials h2{
+    color:black;
+    font-size: 25px;
+    line-height: 28px;
+    padding:5px;
+    font-weight: lighter;
+    margin-top: -40px;
+    font-family: rowdies;
+    cursor:pointer;
+    }
+    .row{
+        margin-top: 5%;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+    }
+
+.testimonials-col{
+    flex-basis: 31%;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding:10px 6px;
+
+}
+.testimonials-col p{
+    font-size: 18px;
+    margin-left: 0;
+    font-weight: 50;
+    font-family: Montserrat Alternates;
+    color:black;
+    font-style: normal;
+    cursor:pointer;
+}
+.testimonials-col{
+    border: 5px solid antiquewhite;
+    cursor:pointer;
+}
+.testimonials-col:hover{
+    border:5px solid pink;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+    
+
+}
+.testimonials-col.fa{
+    color:red;
+}
+.testimonials-col img{
+    border-radius: 50%;
+    width:145px;
+    height: 145px;
+    text-align: center;
+    border:6px solid white;
+    margin-top: 3%;
+    cursor:pointer;
+}
+.testimonials h3{
+    font-size: 20px;
+    font-family: rowdies;
+    color: red;
+    cursor:pointer;
+}
+.footer{
+    background-color:black;
+    height: 340px;
+    border-top: 0;
+    text-align: center;
+    cursor:pointer;
+}
+.footer h2,p{
+    text-align: center; 
+    cursor: pointer;
+    color:#fff;
+}
+.footer p{
+    margin-top: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+ .logos{
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 28px;
+        color: red;
+        font-family: itim;
+}
+.input-group input{
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+    color:#fff;
+    width: 300px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+}
+.footer button{
+    padding:8px 26px;
+    border:2px solid red;
+    background: red;
+    border-radius: 2px;
+    cursor:pointer;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+.footer button:hover{
+    background: white;
+    transition: 1s;
+    border: 2px solid white;
+    color: black;
+}
+span{
+    font-size: 12px;
+    color: goldenrod;
+    cursor:pointer;
+}
+.features{
+    background-color: #fff;
+    font-family: rowdies;
+    text-align: center;
+}
+
+.features h2{
+    font-family: rowdies;
+    cursor:pointer;
+}
+.features h1{
+    text-align: center;
+    font-family: rowdies;
+    font-size: 34px;
+    cursor:pointer;
+}
+#discover{
+    margin-left: 10px;
+    color:#fff;
+    line-height: 18px;
+}
+#discover:hover{
+    border:2px solid white;
+    background: white;
+    transition: 0.1s;
+    color:red;
+}
+.icons{
+    padding: 10px ;
+    color:white;
+}
+.about{
+        width:60%;
+        margin: auto;
+        text-align: center;
+        background-color: white;
+    }
+.shop{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    cursor:pointer;
+}
+.buy{
+    flex-basis: 14;
+    padding:52px 32px;
+    text-align: center;
+    background-color: beige;
+    justify-content: space-between;
+    margin-top: 70px;
+    height: 265px;
+}
+#first{
+    border-top-left-radius: 55px;
+}
+#last{
+    border-top-right-radius: 55px;
+}
+.buy img{
+    width: 200px;
+    text-align: center;
+    cursor:pointer;
+}
+
+.buy figcaption{
+    color: black;
+    font-family: rowdies;
+    background-color: #fff;
+    width: 200px;
+    padding: 3px;
+    box-shadow: 0 0 50px 0px rgba(0,0,0,0.2);
+    cursor:pointer;
+}
+button{
+    padding:3px 16px;
+    border:2px solid red;
+    background: transparent;
+    border-radius: 6px;
+    cursor:pointer;
+    color: black;
+    font-weight: bold;
+    font-size: large;
+    padding:3px;
+    cursor:pointer;
+}
+.textbox{
+    display:flex;
+    margin-top: 65px;
+    width: 600px;
+    text-align: center;
+    margin-left: 65px;
+    cursor:pointer;
+}
+h4{
+    color: black;
+    font-weight: 200;
+    font-family: rowdies;
+    font-size: 22px;
+    cursor:pointer;
+}
+
+.textbox img{
+    width: 255px;
+    background-color: black;
+    cursor:pointer;
+}
+.textbox p{
+    text-align: left;
+    color: black;
+    margin-left: 40px;
+    cursor:pointer;
+
+}
+.textbox h2{
+    text-align: left;
+    font-family: rowdies;
+    font-size: 38px;
+    margin-left: 40px;
+    text-transform: uppercase;
+    cursor:pointer;
+}
+@media(max-width:952px){
+    label.logo{
+        font-size: 25px;
+        padding-left: 50px;
+    }
+    .navbar ul li a{
+        font-size: 12px;
+    }
+}
+@media(max-width:858px){
+    .checkbtn{
+        display: block;
+    }
+    .container h1{
+        font-size: 34px;
+        font-weight: bold;
+        line-height: 40px;
+        color:white;
+        text-align: left;
+        font-family: abril fatface;
+        color: white;
+    }
+    .container p{
+        font-size: 8px;
+        font-weight: lighter;
+        text-align: left;
+        font-family: calibri;
+        color: white;
+    }
+    .container img{
+        width:100px;
+        margin-top:-85px;
+        margin-left:30px;
+    }
+    .container{
+        margin-left: 20pxpx;
+        margin-top: 115px;
+
+    }
+    .row{
+        position: absolute;
+    }
+    .testimonials{
+        width:30%;
+        margin: auto;
+        text-align: center;
+        padding-top:100px;
+        cursor:pointer;
+    }
+}
